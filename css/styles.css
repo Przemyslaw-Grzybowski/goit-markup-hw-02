@@ -5,18 +5,9 @@ body {
 
 :root {
     --active-color: #2196f3;
-}
-
-:root {
-    --default-color: #212121;
-}
-
-:root {
-    --bcg1-color: #2f303a;
-}
-
-:root {
     --bcg2-color: #f5f4fa;
+    --bcg1-color: #2f303a;
+    --default-color: #212121;
 }
 
 .logo {
