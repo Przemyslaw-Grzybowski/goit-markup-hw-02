@@ -36,10 +36,9 @@ body {
 }
 
 .header-link {
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--default-color);
@@ -56,10 +55,9 @@ body {
 }
 
 .header-contact {
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: #757575;
@@ -81,11 +79,10 @@ body {
 
     background: #2f303a;
 }
-h1 {
-    font-family: "Roboto";
+.motto-text {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.33;
 
     text-align: center;
     letter-spacing: 0.06em;
@@ -99,11 +96,11 @@ h1 {
     cursor: pointer;
 
     background-color: var(--active-color);
-    font-family: "Roboto";
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.86;
     border-radius: 4px;
 
     display: flex;
@@ -121,18 +118,14 @@ h1 {
     list-style: none;
 }
 .lorem-title {
-    font-family: "Roboto";
-    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .lorem-text {
-    font-family: "Roboto";
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
 
     letter-spacing: 0.03em;
 
@@ -146,11 +139,9 @@ h1 {
     list-style: none;
 }
 
-h2 {
-    font-family: "Roboto";
-    font-weight: 700;
+.subtitle {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.7;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -164,17 +155,14 @@ h2 {
     background: #ffffff;
 }
 .people-name {
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
 
     text-align: center;
     letter-spacing: 0.03em;
 }
 .job-position {
-    font-family: "Roboto";
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
 
@@ -188,10 +176,10 @@ h2 {
     border: none;
     cursor: pointer;
 
-    font-family: "Roboto";
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     border-radius: 4px;
 }
 .button:hover {
@@ -214,10 +202,8 @@ h2 {
     color: #ffffff;
 }
 .place {
-    font-family: "Roboto";
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
 
     letter-spacing: 0.03em;
 
@@ -227,10 +213,8 @@ h2 {
     list-style: none;
 }
 .footer-link {
-    font-family: "Roboto";
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
 
     letter-spacing: 0.03em;
 
@@ -250,19 +234,16 @@ h2 {
     list-style: none;
 }
 .proj-title {
-    font-family: "Roboto";
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 1.89;
 
     text-align: center;
     letter-spacing: 0.03em;
 }
 .proj-description {
-    font-family: "Roboto";
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.89;
 
     text-align: center;
     letter-spacing: 0.03em;
